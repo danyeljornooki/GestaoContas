@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav>
+        <ul class="menu-dashboard ">
+            <li><button class="dashboard-btn" data-option="contas">Contas</button></li>
+            <li><button class="dashboard-btn" data-option="adicionar">Adicionar</button></li>
+            <li><button class="dashboard-btn" data-option="excluir">Excluir</button></li>
+            <li><button class="dashboard-btn" data-option="editar">Editar</button></li>
+            <li><button class="dashboard-btn" data-option="todos">Todos</button></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo da Dashboard -->
+    <div id="dashboardContent">
+        <!-- O conteúdo da dashboard será carregado dinamicamente aqui -->
+    </div>
+
+    <div class="edicao-conta"></div>
+
+    <!-- Detalhes do Mês -->
+    <div id="monthDetails">
+        <h3 id="mesSelecionado"></h3>
+        <!-- Os detalhes do mês selecionado serão exibidos aqui -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="homeScript.js"></script>
+
+</body>
+
+</html>
